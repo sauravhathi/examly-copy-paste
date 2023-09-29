@@ -1,4 +1,9 @@
-# Examly Copy Paste Extension
+# <p align="center"> Examly Copy Paste Extension </p>
+
+<p align="center">
+ <img src="https://github.com/sauravhathi/examly-copy-paste/blob/master/images/icon128.png" alt="logo" style="width: 150px">
+</p>
+
 
 This is a chrome extension that helps you copy the question and paste. Double click on the question or the options to copy the text.
 
