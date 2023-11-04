@@ -52,4 +52,16 @@ function watchForElement() {
   observer.observe(document, { childList: true, subtree: true });
 }
 
+document.addEventListener("keydown", (e) => {
+  if ((e.ctrlKey && e.key === "b") || (e.altKey && e.key === "b")) {
+    navigator.clipboard.readText().then((text) => {
+      if (document.activeElement instanceof HTMLInputElement || document.activeElement instanceof HTMLTextAreaElement) {
+        document.activeElement.value = text;
+      }
+    }).catch((err) => {
+      console.error('Failed to paste: ', err);
+    });
+  }
+});
+
 watchForElement();
