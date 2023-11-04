@@ -5,7 +5,7 @@
 </p>
 
 
-This is a chrome extension that helps you copy the question and paste. Double click on the question or the options to copy the text.
+This is a chrome extension that helps you copy the question and paste. Double click on the question or the options to copy the text. Press `Ctrl + B` or `Alt + B`, then press `Enter` to paste the copied text.
 
 ## Installation
 
@@ -20,7 +20,7 @@ This is a chrome extension that helps you copy the question and paste. Double cl
 
 1. Open the examly test
 2. Click double click on the question or the options to copy the text
-3. Paste it anywhere you want
+3. Press `Ctrl + B` or `Alt + B`, then press `Enter` to paste the copied text.
 
 ## Contributing
 
