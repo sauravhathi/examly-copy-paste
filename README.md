@@ -22,6 +22,12 @@ This is a chrome extension that helps you copy the question and paste. Double cl
 2. Click double click on the question or the options to copy the text
 3. Press `Ctrl + B` or `Alt + B`, then press `Enter` to paste the copied text.
 
+## Enable the Clipboard API
+
+Click on lock icon in the address bar and enable the clipboard API.
+
+![image](https://github.com/sauravhathi/em/assets/61316762/ecc93024-eb7d-4359-920f-1975c282ed47)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
