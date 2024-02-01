@@ -57,6 +57,7 @@ document.addEventListener("keydown", (e) => {
     navigator.clipboard.readText().then((text) => {
       if (document.activeElement instanceof HTMLInputElement || document.activeElement instanceof HTMLTextAreaElement) {
         document.activeElement.value = text;
+        document.activeElement.dispatchEvent(new Event('input', { bubbles: true }));
       }
     }).catch((err) => {
       console.error('Failed to paste: ', err);
